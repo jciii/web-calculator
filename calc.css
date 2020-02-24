@@ -1,0 +1,39 @@
+body{
+    background-color: steelblue;    
+}
+h1{
+    color: darkorange;
+    margin-left: 87px;
+    margin-top: 28px;
+    font-family: monospace;
+}
+input {
+    border-style: inset;
+    border-color: darkorange;
+    background-color: steelblue;
+    border-width: 6;
+    color: orange;
+    text-align: center;
+    font-size: 12px;
+    border-radius:11px ;
+}
+span#answer{
+    color: darkorange;
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+input#Ans {
+    font-size: 12px;
+    margin-left: 10px;
+    border-style: groove;
+    border-radius: 11px;
+}
+input#num1 {
+    margin-left:15px;
+    margin-right:15px;
+}
+input#num2 {
+    margin: 15px;
+
+}
