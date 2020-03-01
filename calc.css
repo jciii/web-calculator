@@ -21,7 +21,7 @@ span#answer{
     color: darkorange;
     font-size: larger;
     font-weight: bolder;
-    margin-left: 10px;
+    margin-left: 16px;
 }
 input#Ans {
     font-size: 12px;
@@ -36,4 +36,13 @@ input#num1 {
 input#num2 {
     margin: 15px;
 
+}
+select#value {
+    background-color: steelblue;
+    color: darkorange;
+    font-size: 12px;
+    border-width: 6px;
+    border-color: darkorange;
+    border-style: groove;
+    border-radius: 11px;
 }
