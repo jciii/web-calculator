@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <script src="calculator.js"></script>
+    <link rel="stylesheet" href="calc.css">
+</head>
+
+<h1>Web Calculator</h1>
+
+<body>
+
+    <form>
+        <input type="text" id="num1" />
+        <select id='value' onChange='calc()'>
+            <option value='add'>+</option>
+            <option value='subt'>-</option>
+            <option value='multi'>*</option>
+            <option value='divd'>/</option>
+            <input type="text" id="num2" />
+            <input type="button" value="=" onClick='calc()' name="Solve" id="Ans" />
+            <span id="answer"></span>
+    </form>
+
+
+</body>
+
+</html>
